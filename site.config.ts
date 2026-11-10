@@ -20,8 +20,9 @@ export const site = defineSiteConfig({
 		},
 	},
 	nav: [],
+	header: { layout: "start", action: null },
 	mdxComponents: [],
-	footer: { columns: [], social: "brand-links", badge: true },
+	footer: { layout: "columns", columns: [], social: "brand-links", badge: true },
 	features: { search: true, markdownCopies: true, llms: true },
 	integrations: { analytics: { provider: "none" } },
 });
